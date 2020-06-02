@@ -1,14 +1,76 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <title></title>
-  </head>
-  <body>
-    <h1>SamplePage</h1>
-    <p>
-      おはようございます。
-    </p>
-  </body>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Sample Site</title>
+</head>
+
+<body>
+
+  <div id="container">
+
+    <header>
+      <h1>Sample Page</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="gallery.html">gallery</a></li>
+        <li><a href="links.html">links</a></li>
+      </ul>
+    </nav>
+
+    <main>
+
+      <section>
+        <article>
+          <h1>PとBR(改行の違い)</h1>
+          <h4>brなし</h4>
+          <P>
+            おはようございます。 よろしくお願いします。
+          </P>
+          <h4>brあり</h4>
+          <P>
+            おはようございます。<br>
+            よろしくお願いします。<br>
+          </P>
+        </article>
+        <article>
+          <h1>様々なリスト表示</h1>
+          <h4>UL：Unordered List</h4>
+          <ul>
+            <li>menu1</li>
+            <li>menu2</li>
+            <li>menu3</li>
+          </ul>
+          <h4>OL：Ordered List</h4>
+          <ol>
+            <li>menu1</li>
+            <li>menu2</li>
+            <li>menu3</li>
+          </ol>
+        </article>
+      </section>
+
+      <aside>
+        <h1>関連リンク</h1>
+        <ul>
+          <li><a href="https://www.kyusan-u.ac.jp">九州産業大学</a></li>
+          <li><a href="https://www.example.com">EXAMPLE.COM</a></li>
+        </ul>
+      </aside>
+
+    </main>
+
+    <footer>
+      &copy; http://www.example.com
+    </footer>
+
+  </div>
+
+</body>
 </html>
